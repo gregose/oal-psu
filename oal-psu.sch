@@ -294,10 +294,10 @@ Text GLabel 8950 3600 2    60   Output ~ 0
 NEG-B
 Text GLabel 8950 4000 2    60   Output ~ 0
 POS-B
-Text GLabel 1675 2600 1    60   Input ~ 0
-120V-LINE
-Text GLabel 1525 2600 1    60   Input ~ 0
-120V-NEUTRAL
+Text GLabel 750  2750 0    60   Input ~ 0
+LINE
+Text GLabel 950  3700 0    60   Input ~ 0
+NEUTRAL
 Text GLabel 8150 1000 2    60   Output ~ 0
 GND-A
 Text GLabel 8150 5450 2    60   Output ~ 0
@@ -305,16 +305,16 @@ GND-B
 $Comp
 L CONN_01X02 J2
 U 1 1 56C3204B
-P 2700 1725
-F 0 "J2" H 2700 1875 50  0000 C CNN
-F 1 "120V-NEUTRAL" V 2800 1725 50  0000 C CNN
-F 2 "" H 2700 1725 50  0000 C CNN
-F 3 "" H 2700 1725 50  0000 C CNN
-	1    2700 1725
+P 800 1950
+F 0 "J2" H 800 2100 50  0000 C CNN
+F 1 "MAINS_NEUTRAL" V 900 1950 50  0000 C CNN
+F 2 "" H 800 1950 50  0000 C CNN
+F 3 "" H 800 1950 50  0000 C CNN
+	1    800  1950
 	-1   0    0    1   
 $EndComp
-Text GLabel 3000 1775 2    60   Output ~ 0
-120V-NEUTRAL
+Text GLabel 1150 2000 2    60   Output ~ 0
+NEUTRAL
 Text GLabel 9875 1175 2    60   Input ~ 0
 POS-A
 Text GLabel 10375 1275 2    60   Input ~ 0
@@ -545,7 +545,7 @@ F 3 "" V 3550 3050 50  0000 C CNN
 $EndComp
 Text Notes 3650 2450 0    60   ~ 0
 ~
-Text Notes 3500 950  0    60   ~ 0
+Text Notes 1600 1125 0    60   ~ 0
 ~
 Text Notes 3600 2600 0    60   ~ 0
 AC
@@ -737,16 +737,31 @@ $EndComp
 $Comp
 L CONN_01X02 J1
 U 1 1 56CFDE2E
-P 2700 1150
-F 0 "J1" H 2700 1300 50  0000 C CNN
-F 1 "120V-LINE" V 2800 1150 50  0000 C CNN
-F 2 "" H 2700 1150 50  0000 C CNN
-F 3 "" H 2700 1150 50  0000 C CNN
-	1    2700 1150
+P 800 1325
+F 0 "J1" H 800 1475 50  0000 C CNN
+F 1 "MAINS_LINE" V 900 1325 50  0000 C CNN
+F 2 "" H 800 1325 50  0000 C CNN
+F 3 "" H 800 1325 50  0000 C CNN
+	1    800  1325
 	-1   0    0    1   
 $EndComp
-Text GLabel 3000 1200 2    60   Output ~ 0
-120V-LINE
+Text GLabel 1150 1375 2    60   Output ~ 0
+LINE
+$Comp
+L DPDT_SLIDE SW2
+U 1 1 56D137C5
+P 1325 3150
+F 0 "SW2" V 1025 3150 60  0000 C CNN
+F 1 "DPDT_SLIDE" V 1625 3150 60  0001 C CNN
+F 2 "" H 1325 3150 60  0000 C CNN
+F 3 "" H 1325 3150 60  0000 C CNN
+	1    1325 3150
+	0    1    1    0   
+$EndComp
+Text Notes 1225 3000 0    60   ~ 0
+115V
+Text Notes 1225 3400 0    60   ~ 0
+230V
 Connection ~ 5650 2450
 Wire Wire Line
 	5650 1850 5650 2450
@@ -756,8 +771,6 @@ Wire Wire Line
 	5650 2450 5750 2450
 Wire Wire Line
 	5100 1850 5100 2075
-Wire Wire Line
-	1675 2750 1775 2750
 Connection ~ 3400 3700
 Wire Wire Line
 	3300 3700 3400 3700
@@ -938,6 +951,8 @@ Wire Wire Line
 Wire Wire Line
 	7750 4300 8950 4300
 Wire Wire Line
+	7750 2350 7750 2450
+Wire Wire Line
 	7750 2450 7750 2500
 Connection ~ 5750 3400
 Connection ~ 5750 3050
@@ -950,9 +965,9 @@ Wire Wire Line
 Wire Wire Line
 	9825 1175 9875 1175
 Wire Wire Line
-	2900 1775 2950 1775
+	1000 2000 1050 2000
 Wire Wire Line
-	2950 1775 3000 1775
+	1050 2000 1150 2000
 Connection ~ 7750 2850
 Wire Wire Line
 	7750 2850 7750 2800
@@ -1091,18 +1106,6 @@ Wire Wire Line
 	5750 3700 5750 4000
 Wire Wire Line
 	5750 4000 5750 4100
-Connection ~ 1525 3150
-Wire Wire Line
-	1525 3700 1775 3700
-Connection ~ 1675 2750
-Wire Wire Line
-	1675 3300 1775 3300
-Wire Wire Line
-	1675 2600 1675 2750
-Wire Wire Line
-	1675 2750 1675 3300
-Wire Wire Line
-	1525 3150 1775 3150
 Wire Wire Line
 	6400 1000 6500 1000
 Wire Wire Line
@@ -1303,28 +1306,69 @@ Wire Wire Line
 	5650 4600 5650 4000
 Connection ~ 5650 4000
 Wire Wire Line
-	1525 2600 1525 3150
+	1000 1900 1050 1900
 Wire Wire Line
-	1525 3150 1525 3700
+	1050 1900 1050 2000
+Connection ~ 1050 2000
 Wire Wire Line
-	2900 1675 2950 1675
+	1000 1375 1050 1375
 Wire Wire Line
-	2950 1675 2950 1775
-Connection ~ 2950 1775
+	1050 1375 1150 1375
 Wire Wire Line
-	2900 1200 2950 1200
+	1050 1275 1050 1375
+Connection ~ 1050 1375
 Wire Wire Line
-	2950 1200 3000 1200
-Wire Wire Line
-	2950 1100 2950 1200
-Connection ~ 2950 1200
-Wire Wire Line
-	2950 1100 2900 1100
+	1050 1275 1000 1275
 Connection ~ 7750 2350
-Wire Wire Line
-	7750 2350 7750 2450
 Wire Wire Line
 	7750 2350 8050 2350
 Connection ~ 5750 2050
 Connection ~ 5750 4400
+Wire Wire Line
+	950  2750 975  2750
+Wire Wire Line
+	975  2750 1775 2750
+Wire Wire Line
+	950  3700 1675 3700
+Wire Wire Line
+	1675 3700 1775 3700
+Wire Wire Line
+	1625 3150 1775 3150
+Wire Wire Line
+	1725 3300 1775 3300
+Wire Wire Line
+	1625 3000 1675 3000
+Wire Wire Line
+	1675 3000 1675 3700
+Connection ~ 1675 3700
+Wire Wire Line
+	975  3000 1025 3000
+Wire Wire Line
+	975  3000 975  2750
+Connection ~ 975  2750
+Wire Wire Line
+	1025 3150 975  3150
+Wire Wire Line
+	975  3150 975  3500
+Wire Wire Line
+	975  3500 1725 3500
+Wire Wire Line
+	1725 3500 1725 3300
+$Comp
+L F_Small F1
+U 1 1 56D1B0FF
+P 850 2750
+F 0 "F1" H 810 2810 50  0000 L CNN
+F 1 "F_Small" H 730 2690 50  0001 L CNN
+F 2 "" H 850 2750 50  0000 C CNN
+F 3 "" H 850 2750 50  0000 C CNN
+	1    850  2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1025 3300 1025 3450
+Wire Wire Line
+	1025 3450 1625 3450
+Wire Wire Line
+	1625 3450 1625 3300
 $EndSCHEMATC
