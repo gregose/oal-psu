@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/gregose/dev/oal-psu/oal-psu.sch</source>
+    <date>Tuesday, March 01, 2016 'PMt' 05:10:37 PM</date>
+    <tool>Eeschema 4.0.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>oal-psu.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C104">
+      <value>1kuF</value>
+      <footprint>ose-audio-labs:35V-LYTIC-7.5-5</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56BA7135</tstamp>
+    </comp>
+    <comp ref="C204">
+      <value>1kuF</value>
+      <footprint>ose-audio-labs:35V-LYTIC-7.5-5</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56BA7175</tstamp>
+    </comp>
+    <comp ref="T1">
+      <value>TALEMA 15/25VA</value>
+      <footprint>ose-audio-labs:TALEMA_70000K_35VA</footprint>
+      <libsource lib="ose-audio-labs" part="TRANSFO_DUAL-DUAL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56BEB522</tstamp>
+    </comp>
+    <comp ref="C108">
+      <value>47uF</value>
+      <footprint>Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56C246FD</tstamp>
+    </comp>
+    <comp ref="C208">
+      <value>47uF</value>
+      <footprint>Capacitors_Tantalum_SMD:TantalC_SizeD_EIA-7343_Reflow</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56C24774</tstamp>
+    </comp>
+    <comp ref="C110">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56C270DC</tstamp>
+    </comp>
+    <comp ref="C111">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56C27242</tstamp>
+    </comp>
+    <comp ref="C112">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56C272BB</tstamp>
+    </comp>
+    <comp ref="C113">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56C2732A</tstamp>
+    </comp>
+    <comp ref="C114">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56C2737B</tstamp>
+    </comp>
+    <comp ref="C115">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56C273C9</tstamp>
+    </comp>
+    <comp ref="LED101">
+      <value>LED</value>
+      <footprint>LEDs:LED-1206</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56C27ED4</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>820R</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56C27FB0</tstamp>
+    </comp>
+    <comp ref="C210">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56C2A2EF</tstamp>
+    </comp>
+    <comp ref="C211">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56C2A2F5</tstamp>
+    </comp>
+    <comp ref="C212">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56C2A2FB</tstamp>
+    </comp>
+    <comp ref="C213">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56C2A301</tstamp>
+    </comp>
+    <comp ref="C214">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56C2A307</tstamp>
+    </comp>
+    <comp ref="C215">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56C2A30D</tstamp>
+    </comp>
+    <comp ref="LED201">
+      <value>LED</value>
+      <footprint>LEDs:LED-1206</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56C2A313</tstamp>
+    </comp>
+    <comp ref="R202">
+      <value>820R</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56C2A319</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>MAINS_NEUTRAL</value>
+      <footprint>ose-audio-labs:PHEONIX_SPT_5-2POS</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56C3204B</tstamp>
+    </comp>
+    <comp ref="C109">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56C33F54</tstamp>
+    </comp>
+    <comp ref="C209">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56C34152</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>OUTPUT_SELECT</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x03</footprint>
+      <libsource lib="conn" part="CONN_02X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56C3F666</tstamp>
+    </comp>
+    <comp ref="C105">
+      <value>1kuF</value>
+      <footprint>ose-audio-labs:35V-LYTIC-7.5-5-10snap</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56C78396</tstamp>
+    </comp>
+    <comp ref="C106">
+      <value>1kuF</value>
+      <footprint>ose-audio-labs:35V-LYTIC-7.5-5</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56C78417</tstamp>
+    </comp>
+    <comp ref="C107">
+      <value>1kuF</value>
+      <footprint>ose-audio-labs:35V-LYTIC-7.5-5</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56C7849B</tstamp>
+    </comp>
+    <comp ref="C103">
+      <value>1kuF</value>
+      <footprint>ose-audio-labs:35V-LYTIC-7.5-5</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56C78522</tstamp>
+    </comp>
+    <comp ref="C203">
+      <value>1kuF</value>
+      <footprint>ose-audio-labs:35V-LYTIC-7.5-5</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56C79246</tstamp>
+    </comp>
+    <comp ref="C205">
+      <value>1kuF</value>
+      <footprint>ose-audio-labs:35V-LYTIC-7.5-5</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56C7956D</tstamp>
+    </comp>
+    <comp ref="C206">
+      <value>1kuF</value>
+      <footprint>ose-audio-labs:35V-LYTIC-7.5-5</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56C795F9</tstamp>
+    </comp>
+    <comp ref="C207">
+      <value>1kuF</value>
+      <footprint>ose-audio-labs:35V-LYTIC-7.5-5-10snap</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56C7968A</tstamp>
+    </comp>
+    <comp ref="SW102">
+      <value>VOLTAGE_A</value>
+      <footprint>ose-audio-labs:DIP8-HALF-PITCH</footprint>
+      <libsource lib="ose-audio-labs" part="8DIP_SWITCH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CA23B5</tstamp>
+    </comp>
+    <comp ref="SW202">
+      <value>VOLTAGE_B</value>
+      <footprint>ose-audio-labs:DIP8-HALF-PITCH</footprint>
+      <libsource lib="ose-audio-labs" part="8DIP_SWITCH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CA3B93</tstamp>
+    </comp>
+    <comp ref="D102">
+      <value>DIODE-45</value>
+      <footprint>ose-audio-labs:DO-221AC</footprint>
+      <libsource lib="ose-audio-labs" part="DIODE-45"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CA6A8C</tstamp>
+    </comp>
+    <comp ref="D104">
+      <value>DIODE-45</value>
+      <footprint>ose-audio-labs:DO-221AC</footprint>
+      <libsource lib="ose-audio-labs" part="DIODE-45"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CA6BEA</tstamp>
+    </comp>
+    <comp ref="D101">
+      <value>DIODE-45</value>
+      <footprint>ose-audio-labs:DO-221AC</footprint>
+      <libsource lib="ose-audio-labs" part="DIODE-45"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CA6C99</tstamp>
+    </comp>
+    <comp ref="D103">
+      <value>DIODE-45</value>
+      <footprint>ose-audio-labs:DO-221AC</footprint>
+      <libsource lib="ose-audio-labs" part="DIODE-45"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CA6D8C</tstamp>
+    </comp>
+    <comp ref="D202">
+      <value>DIODE-45</value>
+      <footprint>ose-audio-labs:DO-221AC</footprint>
+      <libsource lib="ose-audio-labs" part="DIODE-45"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CAA136</tstamp>
+    </comp>
+    <comp ref="D204">
+      <value>DIODE-45</value>
+      <footprint>ose-audio-labs:DO-221AC</footprint>
+      <libsource lib="ose-audio-labs" part="DIODE-45"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CAA13C</tstamp>
+    </comp>
+    <comp ref="D201">
+      <value>DIODE-45</value>
+      <footprint>ose-audio-labs:DO-221AC</footprint>
+      <libsource lib="ose-audio-labs" part="DIODE-45"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CAA142</tstamp>
+    </comp>
+    <comp ref="D203">
+      <value>DIODE-45</value>
+      <footprint>ose-audio-labs:DO-221AC</footprint>
+      <libsource lib="ose-audio-labs" part="DIODE-45"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CAA148</tstamp>
+    </comp>
+    <comp ref="C102">
+      <value>0.01uF</value>
+      <footprint>ose-audio-labs:TDK-B32529-63VAC</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CB9B2E</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_1210</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CDC88C</tstamp>
+    </comp>
+    <comp ref="C101">
+      <value>0.1uF</value>
+      <footprint>ose-audio-labs:TDK-B32529-63VAC</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CDC9CA</tstamp>
+    </comp>
+    <comp ref="C202">
+      <value>0.01uF</value>
+      <footprint>ose-audio-labs:TDK-B32529-63VAC</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CDEDDA</tstamp>
+    </comp>
+    <comp ref="R201">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_1210</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CDEDE2</tstamp>
+    </comp>
+    <comp ref="C201">
+      <value>0.1uF</value>
+      <footprint>ose-audio-labs:TDK-B32529-63VAC</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CDEDE8</tstamp>
+    </comp>
+    <comp ref="P101">
+      <value>ENABLE_A</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CE0AAE</tstamp>
+    </comp>
+    <comp ref="U201">
+      <value>TPS7A4700</value>
+      <footprint>ose-audio-labs:PVQFN-N20</footprint>
+      <libsource lib="ose-audio-labs" part="TPS7A470X"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56C2A2D7</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>MAINS_LINE</value>
+      <footprint>ose-audio-labs:PHEONIX_SPT_5-2POS</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CFDE2E</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>DPDT_SLIDE</value>
+      <footprint>ose-audio-labs:CK_V80212MS02Q-VOLTAGE_SELECTOR</footprint>
+      <libsource lib="ose-audio-labs" part="DPDT_SLIDE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D137C5</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>FUSE</value>
+      <footprint>ose-audio-labs:LITTLEFUSE_656</footprint>
+      <libsource lib="device" part="FUSE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D1FCBC</tstamp>
+    </comp>
+    <comp ref="U101">
+      <value>TPS7A4700</value>
+      <footprint>ose-audio-labs:PVQFN-N20</footprint>
+      <libsource lib="ose-audio-labs" part="TPS7A470X"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56BE73C7</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>OUTPUT</value>
+      <footprint>ose-audio-labs:PHEONIX_MC1.5-12-G-3.5</footprint>
+      <libsource lib="conn" part="CONN_01X12"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D31B65</tstamp>
+    </comp>
+    <comp ref="P201">
+      <value>ENABLE_B</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D673E9</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="ose-audio-labs" part="8DIP_SWITCH">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">8DIP_SWITCH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1A" type="BiDi"/>
+        <pin num="2" name="2A" type="BiDi"/>
+        <pin num="3" name="3A" type="BiDi"/>
+        <pin num="4" name="4A" type="BiDi"/>
+        <pin num="5" name="5A" type="BiDi"/>
+        <pin num="6" name="6A" type="BiDi"/>
+        <pin num="7" name="7A" type="BiDi"/>
+        <pin num="8" name="8A" type="BiDi"/>
+        <pin num="9" name="8B" type="BiDi"/>
+        <pin num="10" name="7B" type="BiDi"/>
+        <pin num="11" name="6B" type="BiDi"/>
+        <pin num="12" name="5B" type="BiDi"/>
+        <pin num="13" name="4B" type="BiDi"/>
+        <pin num="14" name="3B" type="BiDi"/>
+        <pin num="15" name="2B" type="BiDi"/>
+        <pin num="16" name="1B" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X12">
+      <description>Connector 01x12</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X12</fp>
+        <fp>Pin_Header_Angled_1X12</fp>
+        <fp>Socket_Strip_Straight_1X12</fp>
+        <fp>Socket_Strip_Angled_1X12</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X03">
+      <description>Connector 02x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X03</fp>
+        <fp>Pin_Header_Angled_2X03</fp>
+        <fp>Socket_Strip_Straight_2X03</fp>
+        <fp>Socket_Strip_Angled_2X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ose-audio-labs" part="DIODE-45">
+      <description>Diode</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE-45</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ANODE" type="BiDi"/>
+        <pin num="2" name="CATHODE" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="ose-audio-labs" part="DPDT_SLIDE">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">DPDT_SLIDE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="BiDi"/>
+        <pin num="2" name="~" type="BiDi"/>
+        <pin num="3" name="~" type="BiDi"/>
+        <pin num="4" name="~" type="BiDi"/>
+        <pin num="5" name="~" type="BiDi"/>
+        <pin num="6" name="~" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="FUSE">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">FUSE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ose-audio-labs" part="TPS7A470X">
+      <description>TPS7A470x 36-V, 1-A, 4-µVRMS, RF LDO Voltage Regulator</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS7A470X</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="BiDi"/>
+        <pin num="2" name="NC" type="passive"/>
+        <pin num="3" name="SENSE/FB" type="input"/>
+        <pin num="4" name="6P4V2" type="input"/>
+        <pin num="5" name="6P4V1" type="input"/>
+        <pin num="6" name="3P2V" type="input"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="1P6V" type="input"/>
+        <pin num="9" name="0P8V" type="input"/>
+        <pin num="10" name="0P4V" type="input"/>
+        <pin num="11" name="0P2V" type="input"/>
+        <pin num="12" name="0P1V" type="input"/>
+        <pin num="13" name="EN" type="input"/>
+        <pin num="14" name="NR" type="passive"/>
+        <pin num="15" name="IN" type="input"/>
+        <pin num="16" name="IN" type="input"/>
+        <pin num="17" name="NC" type="passive"/>
+        <pin num="18" name="NC" type="passive"/>
+        <pin num="19" name="NC" type="passive"/>
+        <pin num="20" name="OUT" type="BiDi"/>
+        <pin num="21" name="PAD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ose-audio-labs" part="TRANSFO_DUAL-DUAL">
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">TRANSFO_DUAL-DUAL</field>
+      </fields>
+      <pins>
+        <pin num="3" name="PRIMARY2-NODOT" type="passive"/>
+        <pin num="4" name="PRIMARY2-DOT" type="passive"/>
+        <pin num="5" name="PRIMARY1-NODOT" type="passive"/>
+        <pin num="6" name="PRIMARY1-DOT" type="passive"/>
+        <pin num="11" name="SECONDARY1-DOT" type="passive"/>
+        <pin num="12" name="SECONDARY1-NODOT" type="passive"/>
+        <pin num="13" name="SECONDARY2-DOT" type="passive"/>
+        <pin num="14" name="SECONDARY2-NODOT" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/Library/Application Support/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/Library/Application Support/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="ose-audio-labs">
+      <uri>/Users/gregose/dev/oal_kicad/ose-audio-labs.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="NEG-A">
+      <node ref="D101" pin="1"/>
+      <node ref="D103" pin="1"/>
+      <node ref="J3" pin="7"/>
+      <node ref="J3" pin="11"/>
+      <node ref="C115" pin="2"/>
+      <node ref="C114" pin="2"/>
+      <node ref="C113" pin="2"/>
+      <node ref="C112" pin="2"/>
+      <node ref="C111" pin="2"/>
+      <node ref="C110" pin="1"/>
+      <node ref="C108" pin="2"/>
+      <node ref="C104" pin="2"/>
+      <node ref="R102" pin="1"/>
+      <node ref="U101" pin="21"/>
+      <node ref="U101" pin="2"/>
+      <node ref="U101" pin="7"/>
+      <node ref="C103" pin="2"/>
+      <node ref="C107" pin="2"/>
+      <node ref="C106" pin="2"/>
+      <node ref="C105" pin="2"/>
+      <node ref="P2" pin="3"/>
+      <node ref="U101" pin="17"/>
+      <node ref="U101" pin="18"/>
+      <node ref="U101" pin="19"/>
+      <node ref="C109" pin="2"/>
+      <node ref="SW102" pin="16"/>
+      <node ref="SW102" pin="15"/>
+      <node ref="SW102" pin="14"/>
+      <node ref="SW102" pin="13"/>
+      <node ref="SW102" pin="12"/>
+      <node ref="SW102" pin="11"/>
+      <node ref="SW102" pin="10"/>
+      <node ref="SW102" pin="9"/>
+    </net>
+    <net code="2" name="POS-B">
+      <node ref="J3" pin="6"/>
+      <node ref="P2" pin="5"/>
+      <node ref="P2" pin="4"/>
+      <node ref="U201" pin="1"/>
+      <node ref="C212" pin="2"/>
+      <node ref="C213" pin="2"/>
+      <node ref="C211" pin="2"/>
+      <node ref="LED201" pin="2"/>
+      <node ref="C214" pin="2"/>
+      <node ref="U201" pin="20"/>
+      <node ref="C215" pin="2"/>
+    </net>
+    <net code="3" name="Net-(F1-Pad2)">
+      <node ref="F1" pin="2"/>
+      <node ref="T1" pin="6"/>
+      <node ref="SW1" pin="6"/>
+    </net>
+    <net code="4" name="Net-(SW1-Pad5)">
+      <node ref="SW1" pin="5"/>
+      <node ref="T1" pin="4"/>
+    </net>
+    <net code="5" name="Net-(SW1-Pad2)">
+      <node ref="T1" pin="5"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="6" name="NEUTRAL">
+      <node ref="SW1" pin="1"/>
+      <node ref="T1" pin="3"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="7" name="Net-(C202-Pad2)">
+      <node ref="R201" pin="1"/>
+      <node ref="C202" pin="2"/>
+    </net>
+    <net code="8" name="Net-(C201-Pad2)">
+      <node ref="D203" pin="2"/>
+      <node ref="T1" pin="14"/>
+      <node ref="C201" pin="2"/>
+      <node ref="R201" pin="2"/>
+      <node ref="D204" pin="1"/>
+    </net>
+    <net code="9" name="Net-(C102-Pad2)">
+      <node ref="R101" pin="1"/>
+      <node ref="C102" pin="2"/>
+    </net>
+    <net code="10" name="ENABLE-B">
+      <node ref="J3" pin="3"/>
+      <node ref="U201" pin="13"/>
+      <node ref="P201" pin="2"/>
+    </net>
+    <net code="11" name="UNREG-B">
+      <node ref="C209" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="D202" pin="2"/>
+      <node ref="D204" pin="2"/>
+      <node ref="P201" pin="1"/>
+      <node ref="C203" pin="1"/>
+      <node ref="C205" pin="1"/>
+      <node ref="U201" pin="15"/>
+      <node ref="C206" pin="1"/>
+      <node ref="C208" pin="1"/>
+      <node ref="U201" pin="16"/>
+      <node ref="C207" pin="1"/>
+      <node ref="C204" pin="1"/>
+    </net>
+    <net code="12" name="NEG-B">
+      <node ref="R202" pin="1"/>
+      <node ref="C215" pin="1"/>
+      <node ref="C214" pin="1"/>
+      <node ref="C213" pin="1"/>
+      <node ref="C212" pin="1"/>
+      <node ref="C211" pin="1"/>
+      <node ref="C210" pin="1"/>
+      <node ref="D203" pin="1"/>
+      <node ref="J3" pin="5"/>
+      <node ref="C207" pin="2"/>
+      <node ref="C206" pin="2"/>
+      <node ref="U201" pin="2"/>
+      <node ref="C205" pin="2"/>
+      <node ref="C203" pin="2"/>
+      <node ref="C209" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="C208" pin="2"/>
+      <node ref="C204" pin="2"/>
+      <node ref="SW202" pin="11"/>
+      <node ref="SW202" pin="12"/>
+      <node ref="SW202" pin="13"/>
+      <node ref="SW202" pin="14"/>
+      <node ref="SW202" pin="15"/>
+      <node ref="SW202" pin="16"/>
+      <node ref="SW202" pin="10"/>
+      <node ref="SW202" pin="9"/>
+      <node ref="U201" pin="19"/>
+      <node ref="U201" pin="18"/>
+      <node ref="U201" pin="17"/>
+      <node ref="D201" pin="1"/>
+      <node ref="U201" pin="7"/>
+      <node ref="U201" pin="21"/>
+    </net>
+    <net code="13" name="ENABLE-A">
+      <node ref="U101" pin="13"/>
+      <node ref="P101" pin="2"/>
+      <node ref="J3" pin="10"/>
+    </net>
+    <net code="14" name="UNREG-A">
+      <node ref="P101" pin="1"/>
+      <node ref="C108" pin="1"/>
+      <node ref="C104" pin="1"/>
+      <node ref="C109" pin="1"/>
+      <node ref="D102" pin="2"/>
+      <node ref="U101" pin="16"/>
+      <node ref="D104" pin="2"/>
+      <node ref="U101" pin="15"/>
+      <node ref="C105" pin="1"/>
+      <node ref="C106" pin="1"/>
+      <node ref="C107" pin="1"/>
+      <node ref="C103" pin="1"/>
+      <node ref="J3" pin="12"/>
+    </net>
+    <net code="15" name="Net-(SW1-Pad3)">
+      <node ref="SW1" pin="4"/>
+      <node ref="SW1" pin="3"/>
+    </net>
+    <net code="16" name="Net-(SW102-Pad7)">
+      <node ref="U101" pin="11"/>
+      <node ref="SW102" pin="7"/>
+    </net>
+    <net code="17" name="Net-(SW102-Pad8)">
+      <node ref="U101" pin="12"/>
+      <node ref="SW102" pin="8"/>
+    </net>
+    <net code="18" name="Net-(SW202-Pad1)">
+      <node ref="SW202" pin="1"/>
+      <node ref="U201" pin="4"/>
+    </net>
+    <net code="19" name="Net-(SW202-Pad2)">
+      <node ref="U201" pin="5"/>
+      <node ref="SW202" pin="2"/>
+    </net>
+    <net code="20" name="Net-(SW202-Pad3)">
+      <node ref="U201" pin="6"/>
+      <node ref="SW202" pin="3"/>
+    </net>
+    <net code="21" name="Net-(SW202-Pad4)">
+      <node ref="SW202" pin="4"/>
+      <node ref="U201" pin="8"/>
+    </net>
+    <net code="22" name="Net-(SW202-Pad5)">
+      <node ref="U201" pin="9"/>
+      <node ref="SW202" pin="5"/>
+    </net>
+    <net code="23" name="Net-(SW202-Pad6)">
+      <node ref="U201" pin="10"/>
+      <node ref="SW202" pin="6"/>
+    </net>
+    <net code="24" name="Net-(SW202-Pad7)">
+      <node ref="U201" pin="11"/>
+      <node ref="SW202" pin="7"/>
+    </net>
+    <net code="25" name="Net-(SW202-Pad8)">
+      <node ref="SW202" pin="8"/>
+      <node ref="U201" pin="12"/>
+    </net>
+    <net code="26" name="Net-(C101-Pad2)">
+      <node ref="R101" pin="2"/>
+      <node ref="D103" pin="2"/>
+      <node ref="D104" pin="1"/>
+      <node ref="C101" pin="2"/>
+      <node ref="T1" pin="12"/>
+    </net>
+    <net code="27" name="Net-(SW102-Pad1)">
+      <node ref="U101" pin="4"/>
+      <node ref="SW102" pin="1"/>
+    </net>
+    <net code="28" name="Net-(SW102-Pad2)">
+      <node ref="U101" pin="5"/>
+      <node ref="SW102" pin="2"/>
+    </net>
+    <net code="29" name="Net-(SW102-Pad3)">
+      <node ref="SW102" pin="3"/>
+      <node ref="U101" pin="6"/>
+    </net>
+    <net code="30" name="Net-(SW102-Pad4)">
+      <node ref="SW102" pin="4"/>
+      <node ref="U101" pin="8"/>
+    </net>
+    <net code="31" name="Net-(SW102-Pad5)">
+      <node ref="U101" pin="9"/>
+      <node ref="SW102" pin="5"/>
+    </net>
+    <net code="32" name="Net-(SW102-Pad6)">
+      <node ref="U101" pin="10"/>
+      <node ref="SW102" pin="6"/>
+    </net>
+    <net code="33" name="SENSE-B">
+      <node ref="U201" pin="3"/>
+      <node ref="P2" pin="6"/>
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="34" name="SENSE-A">
+      <node ref="U101" pin="3"/>
+      <node ref="P2" pin="2"/>
+      <node ref="J3" pin="9"/>
+    </net>
+    <net code="35" name="POS-A">
+      <node ref="U101" pin="1"/>
+      <node ref="U101" pin="20"/>
+      <node ref="C111" pin="1"/>
+      <node ref="C112" pin="1"/>
+      <node ref="C113" pin="1"/>
+      <node ref="C114" pin="1"/>
+      <node ref="C115" pin="1"/>
+      <node ref="LED101" pin="2"/>
+      <node ref="J3" pin="8"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="36" name="Net-(LED101-Pad1)">
+      <node ref="LED101" pin="1"/>
+      <node ref="R102" pin="2"/>
+    </net>
+    <net code="37" name="Net-(C110-Pad2)">
+      <node ref="U101" pin="14"/>
+      <node ref="C110" pin="2"/>
+    </net>
+    <net code="38" name="Net-(LED201-Pad1)">
+      <node ref="LED201" pin="1"/>
+      <node ref="R202" pin="2"/>
+    </net>
+    <net code="39" name="Net-(C210-Pad2)">
+      <node ref="C210" pin="2"/>
+      <node ref="U201" pin="14"/>
+    </net>
+    <net code="40" name="LINE">
+      <node ref="J1" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="F1" pin="1"/>
+    </net>
+    <net code="41" name="Net-(C101-Pad1)">
+      <node ref="T1" pin="11"/>
+      <node ref="C101" pin="1"/>
+      <node ref="C102" pin="1"/>
+      <node ref="D101" pin="2"/>
+      <node ref="D102" pin="1"/>
+    </net>
+    <net code="42" name="Net-(C201-Pad1)">
+      <node ref="C202" pin="1"/>
+      <node ref="D201" pin="2"/>
+      <node ref="C201" pin="1"/>
+      <node ref="D202" pin="1"/>
+      <node ref="T1" pin="13"/>
+    </net>
+  </nets>
+</export>
