@@ -168,24 +168,24 @@ $EndComp
 $Comp
 L LED LED101
 U 1 1 56C27ED4
-P 8800 1600
-F 0 "LED101" H 8800 1500 50  0000 C CNN
-F 1 "LED" H 8800 1700 50  0000 C CNN
-F 2 "LEDs:LED-1206" H 8800 1600 50  0001 C CNN
-F 3 "" H 8800 1600 50  0000 C CNN
-	1    8800 1600
-	0    1    1    0   
+P 5050 1750
+F 0 "LED101" H 5050 1650 50  0000 C CNN
+F 1 "LED" H 5050 1850 50  0000 C CNN
+F 2 "LEDs:LED-1206" H 5050 1750 50  0001 C CNN
+F 3 "" H 5050 1750 50  0000 C CNN
+	1    5050 1750
+	-1   0    0    1   
 $EndComp
 $Comp
 L R R102
 U 1 1 56C27FB0
-P 8800 1250
-F 0 "R102" V 8700 1250 50  0000 C CNN
-F 1 "820R" V 8900 1250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 8730 1250 50  0001 C CNN
-F 3 "" H 8800 1250 50  0000 C CNN
-	1    8800 1250
-	1    0    0    -1  
+P 5400 1750
+F 0 "R102" V 5300 1750 50  0000 C CNN
+F 1 "820R" V 5500 1750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 5330 1750 50  0001 C CNN
+F 3 "" H 5400 1750 50  0000 C CNN
+	1    5400 1750
+	0    1    1    0   
 $EndComp
 $Comp
 L C C210
@@ -256,24 +256,24 @@ $EndComp
 $Comp
 L LED LED201
 U 1 1 56C2A313
-P 8800 4750
-F 0 "LED201" H 8800 4650 50  0000 C CNN
-F 1 "LED" H 8800 4850 50  0000 C CNN
-F 2 "LEDs:LED-1206" H 8800 4750 50  0001 C CNN
-F 3 "" H 8800 4750 50  0000 C CNN
-	1    8800 4750
-	0    1    -1   0   
+P 4900 4500
+F 0 "LED201" H 4900 4400 50  0000 C CNN
+F 1 "LED" H 4900 4600 50  0000 C CNN
+F 2 "LEDs:LED-1206" H 4900 4500 50  0001 C CNN
+F 3 "" H 4900 4500 50  0000 C CNN
+	1    4900 4500
+	-1   0    0    -1  
 $EndComp
 $Comp
 L R R202
 U 1 1 56C2A319
-P 8800 5100
-F 0 "R202" V 8700 5100 50  0000 C CNN
-F 1 "820R" V 8900 5100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 8730 5100 50  0001 C CNN
-F 3 "" H 8800 5100 50  0000 C CNN
-	1    8800 5100
-	1    0    0    1   
+P 5250 4500
+F 0 "R202" V 5150 4500 50  0000 C CNN
+F 1 "820R" V 5350 4500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 5180 4500 50  0001 C CNN
+F 3 "" H 5250 4500 50  0000 C CNN
+	1    5250 4500
+	0    1    -1   0   
 $EndComp
 Text GLabel 9700 2400 2    60   Output ~ 0
 POS-A
@@ -287,7 +287,7 @@ Text GLabel 1075 2700 0    60   Input ~ 0
 LINE
 Text GLabel 1275 3650 0    60   Input ~ 0
 NEUTRAL
-Text GLabel 8900 950  2    60   Output ~ 0
+Text GLabel 8625 950  2    60   Output ~ 0
 NEG-A
 Text GLabel 8900 5400 2    60   Output ~ 0
 NEG-B
@@ -473,7 +473,7 @@ F 1 "VOLTAGE_B" H 7950 5100 60  0000 L CNN
 F 2 "ose-audio-labs:DIP8-HALF-PITCH" H 7500 5400 60  0001 C CNN
 F 3 "" H 7500 5400 60  0000 C CNN
 	1    7500 5150
-	1    0    0    1   
+	-1   0    0    1   
 $EndComp
 $Comp
 L DIODE-45 D102
@@ -722,17 +722,6 @@ Text GLabel 9875 875  2    60   Output ~ 0
 ENABLE-A
 Text GLabel 10400 775  2    60   Input ~ 0
 NEG-A
-$Comp
-L TPS7A470X U101
-U 1 1 56BE73C7
-P 7500 2100
-F 0 "U101" H 7500 2000 50  0000 C CNN
-F 1 "TPS7A4700" H 7500 2200 50  0000 C CNN
-F 2 "ose-audio-labs:PVQFN-N20" H 7500 2100 50  0001 C CNN
-F 3 "" H 7500 2100 50  0001 C CNN
-	1    7500 2100
-	1    0    0    1   
-$EndComp
 Text GLabel 6500 2000 0    60   Input ~ 0
 ENABLE-A
 Text GLabel 5950 900  0    60   Input ~ 0
@@ -752,9 +741,9 @@ F 3 "" H 9625 1225 50  0000 C CNN
 $EndComp
 Text GLabel 9875 1675 2    60   Input ~ 0
 NEG-B
-Text GLabel 10375 1775 2    60   Input ~ 0
+Text GLabel 10375 1575 2    60   Input ~ 0
 UNREG-B
-Text GLabel 10375 1575 2    60   Output ~ 0
+Text GLabel 10375 1775 2    60   Output ~ 0
 ENABLE-B
 Connection ~ 4150 3650
 Wire Wire Line
@@ -793,7 +782,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 2450 4450 2450
 Wire Wire Line
-	8800 5400 8800 5250
+	5550 4500 5400 4500
 Wire Wire Line
 	8500 5400 8500 4650
 Wire Wire Line
@@ -812,7 +801,6 @@ Wire Wire Line
 	7250 5350 7250 5400
 Wire Wire Line
 	7150 5350 7150 5400
-Connection ~ 8800 5400
 Wire Wire Line
 	7150 5400 8900 5400
 Connection ~ 8500 5400
@@ -823,8 +811,6 @@ Connection ~ 7550 5400
 Connection ~ 7450 5400
 Connection ~ 7350 5400
 Connection ~ 7250 5400
-Wire Wire Line
-	8800 950  8800 1100
 Wire Wire Line
 	8500 950  8500 1700
 Wire Wire Line
@@ -941,18 +927,12 @@ Connection ~ 8750 3950
 Wire Wire Line
 	8750 3900 8750 3950
 Connection ~ 8500 2400
-Connection ~ 8800 950 
 Wire Wire Line
 	8500 2400 9700 2400
 Wire Wire Line
 	8500 2100 9700 2100
-Connection ~ 8500 4050
 Wire Wire Line
 	8500 3900 8500 4050
-Wire Wire Line
-	8800 4050 8800 4550
-Wire Wire Line
-	8500 4050 8800 4050
 Connection ~ 7900 3550
 Wire Wire Line
 	8500 3950 9700 3950
@@ -983,12 +963,8 @@ Wire Wire Line
 Connection ~ 6500 3950
 Wire Wire Line
 	6500 3650 6500 4050
-Wire Wire Line
-	7150 950  8900 950 
 Connection ~ 8500 950 
 Connection ~ 7850 950 
-Wire Wire Line
-	8800 2300 8800 1800
 Connection ~ 7900 2800
 Connection ~ 7750 950 
 Connection ~ 7650 950 
@@ -1082,9 +1058,6 @@ Wire Wire Line
 Connection ~ 1800 1325
 Wire Wire Line
 	1800 1225 1750 1225
-Connection ~ 8500 2300
-Wire Wire Line
-	8500 2300 8800 2300
 Wire Wire Line
 	1575 2700 2525 2700
 Wire Wire Line
@@ -1167,4 +1140,69 @@ Text GLabel 5550 5075 0    60   Output ~ 0
 ENABLE-B
 Wire Wire Line
 	5550 5075 6075 5075
+$Comp
+L TPS7A470X U101
+U 1 1 56BE73C7
+P 7500 2100
+F 0 "U101" H 7500 2000 50  0000 C CNN
+F 1 "TPS7A4700" H 7500 2200 50  0000 C CNN
+F 2 "ose-audio-labs:PVQFN-N20" H 7500 2100 50  0001 C CNN
+F 3 "" H 7500 2100 50  0001 C CNN
+	1    7500 2100
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7150 950  8625 950 
+Text GLabel 5550 1750 2    60   Output ~ 0
+NEG-A
+Text GLabel 4850 1750 0    60   Input ~ 0
+UNREG-A
+Text GLabel 4700 4500 0    60   Input ~ 0
+UNREG-B
+Text GLabel 5550 4500 2    60   Output ~ 0
+NEG-B
+$Comp
+L MOUNTING_HOLE X1
+U 1 1 56D8E6E8
+P 925 4225
+F 0 "X1" H 925 4075 60  0000 C CNN
+F 1 "M3 HOLE" H 925 4375 60  0000 C CNN
+F 2 "ose-audio-labs:MOUNTING_HOLE-M3" H 925 4225 60  0001 C CNN
+F 3 "" H 925 4225 60  0000 C CNN
+	1    925  4225
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOUNTING_HOLE X2
+U 1 1 56D8E944
+P 1825 4225
+F 0 "X2" H 1825 4075 60  0000 C CNN
+F 1 "M3 HOLE" H 1825 4375 60  0000 C CNN
+F 2 "ose-audio-labs:MOUNTING_HOLE-M3" H 1825 4225 60  0001 C CNN
+F 3 "" H 1825 4225 60  0000 C CNN
+	1    1825 4225
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOUNTING_HOLE X3
+U 1 1 56D8EB2F
+P 1375 4225
+F 0 "X3" H 1375 4075 60  0000 C CNN
+F 1 "M3 HOLE" H 1375 4375 60  0000 C CNN
+F 2 "ose-audio-labs:MOUNTING_HOLE-M3" H 1375 4225 60  0001 C CNN
+F 3 "" H 1375 4225 60  0000 C CNN
+	1    1375 4225
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOUNTING_HOLE X4
+U 1 1 56D8EC0A
+P 2275 4225
+F 0 "X4" H 2275 4075 60  0000 C CNN
+F 1 "M3 HOLE" H 2275 4375 60  0000 C CNN
+F 2 "ose-audio-labs:MOUNTING_HOLE-M3" H 2275 4225 60  0001 C CNN
+F 3 "" H 2275 4225 60  0000 C CNN
+	1    2275 4225
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
