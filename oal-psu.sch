@@ -741,9 +741,9 @@ F 3 "" H 9625 1225 50  0000 C CNN
 $EndComp
 Text GLabel 9875 1675 2    60   Input ~ 0
 NEG-B
-Text GLabel 10375 1575 2    60   Input ~ 0
+Text GLabel 10375 1775 2    60   Input ~ 0
 UNREG-B
-Text GLabel 10375 1775 2    60   Output ~ 0
+Text GLabel 10375 1575 2    60   Output ~ 0
 ENABLE-B
 Connection ~ 4150 3650
 Wire Wire Line
