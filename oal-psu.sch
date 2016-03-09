@@ -291,26 +291,15 @@ Text GLabel 8625 950  2    60   Output ~ 0
 NEG-A
 Text GLabel 8900 5400 2    60   Output ~ 0
 NEG-B
-$Comp
-L CONN_01X02 J2
-U 1 1 56C3204B
-P 1550 1900
-F 0 "J2" H 1550 2050 50  0000 C CNN
-F 1 "MAINS_NEUTRAL" V 1650 1900 50  0000 C CNN
-F 2 "ose-audio-labs:PHEONIX_SPT_5-2POS" H 1550 1900 50  0001 C CNN
-F 3 "" H 1550 1900 50  0000 C CNN
-	1    1550 1900
-	-1   0    0    1   
-$EndComp
 Text GLabel 1900 1950 2    60   Output ~ 0
 NEUTRAL
-Text GLabel 9875 1075 2    60   Input ~ 0
+Text GLabel 1775 5450 2    60   Input ~ 0
 POS-A
-Text GLabel 10400 1175 2    60   Input ~ 0
+Text GLabel 2300 5550 2    60   Input ~ 0
 NEG-A
-Text GLabel 9875 1275 2    60   Input ~ 0
+Text GLabel 1775 5875 2    60   Input ~ 0
 POS-B
-Text GLabel 10375 1375 2    60   Input ~ 0
+Text GLabel 2275 5975 2    60   Input ~ 0
 NEG-B
 $Comp
 L C C109
@@ -338,9 +327,9 @@ Text GLabel 9700 2100 2    60   Input ~ 0
 SENSE-A
 Text GLabel 9700 4250 2    60   Input ~ 0
 SENSE-B
-Text GLabel 10400 975  2    60   Output ~ 0
+Text GLabel 2300 5350 2    60   Output ~ 0
 SENSE-A
-Text GLabel 9875 1475 2    60   Output ~ 0
+Text GLabel 1775 6075 2    60   Output ~ 0
 SENSE-B
 Text GLabel 10100 5700 2    60   Output ~ 0
 SENSE-A
@@ -675,17 +664,6 @@ F 3 "" H 7500 4250 50  0001 C CNN
 	1    7500 4250
 	1    0    0    -1  
 $EndComp
-$Comp
-L CONN_01X02 J1
-U 1 1 56CFDE2E
-P 1550 1275
-F 0 "J1" H 1550 1425 50  0000 C CNN
-F 1 "MAINS_LINE" V 1650 1275 50  0000 C CNN
-F 2 "ose-audio-labs:PHEONIX_SPT_5-2POS" H 1550 1275 50  0001 C CNN
-F 3 "" H 1550 1275 50  0000 C CNN
-	1    1550 1275
-	-1   0    0    1   
-$EndComp
 Text GLabel 1900 1325 2    60   Output ~ 0
 LINE
 $Comp
@@ -716,11 +694,11 @@ F 3 "" H 1325 2700 50  0000 C CNN
 $EndComp
 Text GLabel 6700 2700 2    60   Output ~ 0
 UNREG-A
-Text GLabel 9875 675  2    60   Input ~ 0
+Text GLabel 1775 4825 2    60   Input ~ 0
 UNREG-A
-Text GLabel 9875 875  2    60   Output ~ 0
+Text GLabel 1775 5025 2    60   Output ~ 0
 ENABLE-A
-Text GLabel 10400 775  2    60   Input ~ 0
+Text GLabel 2300 4925 2    60   Input ~ 0
 NEG-A
 Text GLabel 6500 2000 0    60   Input ~ 0
 ENABLE-A
@@ -728,22 +706,11 @@ Text GLabel 5950 900  0    60   Input ~ 0
 UNREG-A
 Text GLabel 5450 1000 0    60   Output ~ 0
 ENABLE-A
-$Comp
-L CONN_01X12 J3
-U 1 1 56D31B65
-P 9625 1225
-F 0 "J3" H 9625 1875 50  0000 C CNN
-F 1 "OUTPUT" V 9725 1225 50  0000 C CNN
-F 2 "ose-audio-labs:PHEONIX_MC1.5-12-G-3.5" H 9625 1225 50  0001 C CNN
-F 3 "" H 9625 1225 50  0000 C CNN
-	1    9625 1225
-	-1   0    0    1   
-$EndComp
-Text GLabel 9875 1675 2    60   Input ~ 0
+Text GLabel 1775 6525 2    60   Input ~ 0
 NEG-B
-Text GLabel 10375 1775 2    60   Input ~ 0
+Text GLabel 2275 6625 2    60   Input ~ 0
 UNREG-B
-Text GLabel 10375 1575 2    60   Output ~ 0
+Text GLabel 2275 6425 2    60   Output ~ 0
 ENABLE-B
 Connection ~ 4150 3650
 Wire Wire Line
@@ -868,7 +835,7 @@ Wire Wire Line
 Connection ~ 6500 3350
 Connection ~ 6500 3000
 Wire Wire Line
-	9825 1175 10400 1175
+	1725 5550 2300 5550
 Wire Wire Line
 	1750 1950 1900 1950
 Connection ~ 8500 2800
@@ -1095,27 +1062,27 @@ Wire Wire Line
 	4650 2700 6700 2700
 Connection ~ 6500 2400
 Wire Wire Line
-	9825 675  9875 675 
+	1725 4825 1775 4825
 Wire Wire Line
-	9825 775  10400 775 
+	1725 4925 2300 4925
 Wire Wire Line
-	9825 875  9875 875 
+	1725 5025 1775 5025
 Wire Wire Line
-	9825 975  10400 975 
+	1725 5350 2300 5350
 Wire Wire Line
-	9825 1075 9875 1075
+	1725 5450 1775 5450
 Wire Wire Line
-	9825 1275 9875 1275
+	1725 5875 1775 5875
 Wire Wire Line
-	9825 1375 10375 1375
+	1725 5975 2275 5975
 Wire Wire Line
-	9825 1475 9875 1475
+	1725 6075 1775 6075
 Wire Wire Line
-	9825 1575 10375 1575
+	1725 6425 2275 6425
 Wire Wire Line
-	9825 1675 9875 1675
+	1725 6525 1775 6525
 Wire Wire Line
-	10375 1775 9825 1775
+	2275 6625 1725 6625
 Wire Wire Line
 	5450 1000 5950 1000
 Text GLabel 6500 4350 0    60   Input ~ 0
@@ -1215,5 +1182,71 @@ F 2 "ose-audio-labs:MOUNTING_HOLE-M3" H 2725 4225 60  0001 C CNN
 F 3 "" H 2725 4225 60  0000 C CNN
 	1    2725 4225
 	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 J2
+U 1 1 56C3204B
+P 1550 1900
+F 0 "J2" H 1550 2050 50  0000 C CNN
+F 1 "MAINS_NEUTRAL" V 1650 1900 50  0000 C CNN
+F 2 "ose-audio-labs:PHEONIX_SPT_5-2POS" H 1550 1900 50  0001 C CNN
+F 3 "" H 1550 1900 50  0000 C CNN
+	1    1550 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X02 J1
+U 1 1 56CFDE2E
+P 1550 1275
+F 0 "J1" H 1550 1425 50  0000 C CNN
+F 1 "MAINS_LINE" V 1650 1275 50  0000 C CNN
+F 2 "ose-audio-labs:PHEONIX_SPT_5-2POS" H 1550 1275 50  0001 C CNN
+F 3 "" H 1550 1275 50  0000 C CNN
+	1    1550 1275
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X03 P3
+U 1 1 56DF9A8B
+P 1525 4925
+F 0 "P3" H 1525 5125 50  0000 C CNN
+F 1 "UNREG_A" V 1625 4925 50  0000 C CNN
+F 2 "ose-audio-labs:Phoenix-PTSM-0,5-3" H 1525 4925 50  0001 C CNN
+F 3 "" H 1525 4925 50  0000 C CNN
+	1    1525 4925
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X03 P6
+U 1 1 56DF9C02
+P 1525 6525
+F 0 "P6" H 1525 6725 50  0000 C CNN
+F 1 "UNREG_B" V 1625 6525 50  0000 C CNN
+F 2 "ose-audio-labs:Phoenix-PTSM-0,5-3" H 1525 6525 50  0001 C CNN
+F 3 "" H 1525 6525 50  0000 C CNN
+	1    1525 6525
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X03 P4
+U 1 1 56DF9FAE
+P 1525 5450
+F 0 "P4" H 1525 5650 50  0000 C CNN
+F 1 "REG_A" V 1625 5450 50  0000 C CNN
+F 2 "ose-audio-labs:Phoenix-PTSM-0,5-3" H 1525 5450 50  0001 C CNN
+F 3 "" H 1525 5450 50  0000 C CNN
+	1    1525 5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X03 P5
+U 1 1 56DFA0B5
+P 1525 5975
+F 0 "P5" H 1525 6175 50  0000 C CNN
+F 1 "REG_B" V 1625 5975 50  0000 C CNN
+F 2 "ose-audio-labs:Phoenix-PTSM-0,5-3" H 1525 5975 50  0001 C CNN
+F 3 "" H 1525 5975 50  0000 C CNN
+	1    1525 5975
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
