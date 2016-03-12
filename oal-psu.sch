@@ -293,13 +293,13 @@ Text GLabel 8900 5400 2    60   Output ~ 0
 NEG-B
 Text GLabel 1900 1950 2    60   Output ~ 0
 NEUTRAL
-Text GLabel 1775 5450 2    60   Input ~ 0
+Text GLabel 2225 5450 2    60   Input ~ 0
 POS-A
-Text GLabel 2300 5550 2    60   Input ~ 0
+Text GLabel 1775 5550 2    60   Input ~ 0
 NEG-A
-Text GLabel 1775 5875 2    60   Input ~ 0
+Text GLabel 2225 5975 2    60   Input ~ 0
 POS-B
-Text GLabel 2275 5975 2    60   Input ~ 0
+Text GLabel 1775 6075 2    60   Input ~ 0
 NEG-B
 $Comp
 L C C109
@@ -327,9 +327,9 @@ Text GLabel 9700 2100 2    60   Input ~ 0
 SENSE-A
 Text GLabel 9700 4250 2    60   Input ~ 0
 SENSE-B
-Text GLabel 2300 5350 2    60   Output ~ 0
+Text GLabel 1775 5350 2    60   Output ~ 0
 SENSE-A
-Text GLabel 1775 6075 2    60   Output ~ 0
+Text GLabel 1775 5875 2    60   Output ~ 0
 SENSE-B
 Text GLabel 10100 5700 2    60   Output ~ 0
 SENSE-A
@@ -694,9 +694,9 @@ F 3 "" H 1325 2700 50  0000 C CNN
 $EndComp
 Text GLabel 6700 2700 2    60   Output ~ 0
 UNREG-A
-Text GLabel 1775 4825 2    60   Input ~ 0
+Text GLabel 1775 5025 2    60   Input ~ 0
 UNREG-A
-Text GLabel 1775 5025 2    60   Output ~ 0
+Text GLabel 1775 4825 2    60   Output ~ 0
 ENABLE-A
 Text GLabel 2300 4925 2    60   Input ~ 0
 NEG-A
@@ -706,11 +706,11 @@ Text GLabel 5950 900  0    60   Input ~ 0
 UNREG-A
 Text GLabel 5450 1000 0    60   Output ~ 0
 ENABLE-A
-Text GLabel 1775 6525 2    60   Input ~ 0
+Text GLabel 2300 6525 2    60   Input ~ 0
 NEG-B
-Text GLabel 2275 6625 2    60   Input ~ 0
+Text GLabel 1775 6625 2    60   Input ~ 0
 UNREG-B
-Text GLabel 2275 6425 2    60   Output ~ 0
+Text GLabel 1775 6425 2    60   Output ~ 0
 ENABLE-B
 Connection ~ 4150 3650
 Wire Wire Line
@@ -834,8 +834,6 @@ Wire Wire Line
 	8500 2300 8500 2450
 Connection ~ 6500 3350
 Connection ~ 6500 3000
-Wire Wire Line
-	1725 5550 2300 5550
 Wire Wire Line
 	1750 1950 1900 1950
 Connection ~ 8500 2800
@@ -1068,21 +1066,11 @@ Wire Wire Line
 Wire Wire Line
 	1725 5025 1775 5025
 Wire Wire Line
-	1725 5350 2300 5350
-Wire Wire Line
-	1725 5450 1775 5450
+	1725 5450 2225 5450
 Wire Wire Line
 	1725 5875 1775 5875
 Wire Wire Line
-	1725 5975 2275 5975
-Wire Wire Line
 	1725 6075 1775 6075
-Wire Wire Line
-	1725 6425 2275 6425
-Wire Wire Line
-	1725 6525 1775 6525
-Wire Wire Line
-	2275 6625 1725 6625
 Wire Wire Line
 	5450 1000 5950 1000
 Text GLabel 6500 4350 0    60   Input ~ 0
@@ -1249,4 +1237,16 @@ F 3 "" H 1525 5975 50  0000 C CNN
 	1    1525 5975
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	1725 5350 1775 5350
+Wire Wire Line
+	1725 5550 1775 5550
+Wire Wire Line
+	1725 5975 2225 5975
+Wire Wire Line
+	2300 6525 1725 6525
+Wire Wire Line
+	1725 6425 1775 6425
+Wire Wire Line
+	1725 6625 1775 6625
 $EndSCHEMATC
